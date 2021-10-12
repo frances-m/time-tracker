@@ -1,9 +1,31 @@
 @import './adjust.css';
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
+:root {
+  --main-bg-color: hsl(226, 43%, 10%);
+  --card-bg-color: hsl(235, 46%, 20%);
+  --font-color-main: hsl(236, 100%, 87%);
+  --font-color-secondary: hsl(235, 45%, 61%);
+
+  --main-card-header: hsl(246, 80%, 60%);
+  --work-card-header: hsl(15, 100%, 70%);
+  --play-card-header: hsl(195, 74%, 62%);
+  --study-card-header: hsl(348, 100%, 68%);
+  --exercise-card-header: hsl(145, 58%, 55%);
+  --social-card-header: hsl(264, 64%, 52%);
+  --selfcare-card-header:hsl(43, 84%, 65%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Rubik', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+  font-size: 1.8rem;
+  color: var(--font-color-secondary);
+  width: 31rem;
+  margin: 0 auto;
 }
 
